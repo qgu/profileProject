@@ -14,7 +14,7 @@ using namespace std;
 
 int main(){
 	int x = 10;
-	int times = 10000;
+	int times = 100000;
 
 	vector<double> u,v,w,y;
 

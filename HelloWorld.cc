@@ -16,12 +16,13 @@ int main(){
 	int x = 10;
 	int times = 100000;
 
-	vector<double> u,v,w,y;
+	vector<double> u,v,w,y,z;
 
 	for(int i= 0; i < times; i++) u.push_back(sin(i));
 	for(int i= 0; i < times; i++) v.push_back(square(i));
 	for(int i= 0; i < times; i++) w.push_back(i*i);
 	for(int i= 0; i < times; i++) y.push_back(factorial(i));
+	for(int i= 0; i < times; i++) z.push_back(square(factorial(i)));
 	cout << "Hello World" << endl;
 	cout << times << endl;
 	return 0;
